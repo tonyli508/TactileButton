@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10190CDD1D4374EC00F9FB6B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10190CDC1D4374EC00F9FB6B /* SecondViewController.swift */; };
+		10259DA51BD94E5300A7875D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10259DA41BD94E5300A7875D /* AppDelegate.swift */; };
+		10259DA71BD94E5300A7875D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10259DA61BD94E5300A7875D /* ViewController.swift */; };
+		10259DAA1BD94E5300A7875D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10259DA81BD94E5300A7875D /* Main.storyboard */; };
+		10259DAC1BD94E5300A7875D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10259DAB1BD94E5300A7875D /* Assets.xcassets */; };
+		10259DAF1BD94E5300A7875D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10259DAD1BD94E5300A7875D /* LaunchScreen.storyboard */; };
+		10259DBA1BD94E5400A7875D /* TactileButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10259DB91BD94E5300A7875D /* TactileButtonTests.swift */; };
+		10259DC51BD94E5400A7875D /* TactileButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10259DC41BD94E5400A7875D /* TactileButtonUITests.swift */; };
+		10259DD31BD94E6900A7875D /* TactileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10259DD21BD94E6900A7875D /* TactileButton.swift */; };
+		10259DD51BD94EFB00A7875D /* AnalyticsTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10259DD41BD94EFB00A7875D /* AnalyticsTracking.swift */; };
+		10259DD71BD94FF500A7875D /* AnalyticsBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10259DD61BD94FF500A7875D /* AnalyticsBasedViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10259DB61BD94E5300A7875D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10259D991BD94E5300A7875D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10259DA01BD94E5300A7875D;
+			remoteInfo = TactileButton;
+		};
+		10259DC11BD94E5400A7875D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10259D991BD94E5300A7875D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10259DA01BD94E5300A7875D;
+			remoteInfo = TactileButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10190CDC1D4374EC00F9FB6B /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		10259DA11BD94E5300A7875D /* TactileButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TactileButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10259DA41BD94E5300A7875D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10259DA61BD94E5300A7875D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10259DA91BD94E5300A7875D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10259DAB1BD94E5300A7875D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10259DAE1BD94E5300A7875D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10259DB01BD94E5300A7875D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10259DB51BD94E5300A7875D /* TactileButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TactileButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10259DB91BD94E5300A7875D /* TactileButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TactileButtonTests.swift; sourceTree = "<group>"; };
+		10259DBB1BD94E5400A7875D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10259DC01BD94E5400A7875D /* TactileButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TactileButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10259DC41BD94E5400A7875D /* TactileButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TactileButtonUITests.swift; sourceTree = "<group>"; };
+		10259DC61BD94E5400A7875D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10259DD21BD94E6900A7875D /* TactileButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TactileButton.swift; sourceTree = "<group>"; };
+		10259DD41BD94EFB00A7875D /* AnalyticsTracking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsTracking.swift; sourceTree = "<group>"; };
+		10259DD61BD94FF500A7875D /* AnalyticsBasedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsBasedViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10259D9E1BD94E5300A7875D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10259DB21BD94E5300A7875D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10259DBD1BD94E5400A7875D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10259D981BD94E5300A7875D = {
+			isa = PBXGroup;
+			children = (
+				10259DA31BD94E5300A7875D /* TactileButton */,
+				10259DB81BD94E5300A7875D /* TactileButtonTests */,
+				10259DC31BD94E5400A7875D /* TactileButtonUITests */,
+				10259DA21BD94E5300A7875D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10259DA21BD94E5300A7875D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10259DA11BD94E5300A7875D /* TactileButton.app */,
+				10259DB51BD94E5300A7875D /* TactileButtonTests.xctest */,
+				10259DC01BD94E5400A7875D /* TactileButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10259DA31BD94E5300A7875D /* TactileButton */ = {
+			isa = PBXGroup;
+			children = (
+				10259DA41BD94E5300A7875D /* AppDelegate.swift */,
+				10259DA61BD94E5300A7875D /* ViewController.swift */,
+				10259DA81BD94E5300A7875D /* Main.storyboard */,
+				10259DAB1BD94E5300A7875D /* Assets.xcassets */,
+				10259DAD1BD94E5300A7875D /* LaunchScreen.storyboard */,
+				10259DB01BD94E5300A7875D /* Info.plist */,
+				10259DD21BD94E6900A7875D /* TactileButton.swift */,
+				10259DD41BD94EFB00A7875D /* AnalyticsTracking.swift */,
+				10259DD61BD94FF500A7875D /* AnalyticsBasedViewController.swift */,
+				10190CDC1D4374EC00F9FB6B /* SecondViewController.swift */,
+			);
+			path = TactileButton;
+			sourceTree = "<group>";
+		};
+		10259DB81BD94E5300A7875D /* TactileButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				10259DB91BD94E5300A7875D /* TactileButtonTests.swift */,
+				10259DBB1BD94E5400A7875D /* Info.plist */,
+			);
+			path = TactileButtonTests;
+			sourceTree = "<group>";
+		};
+		10259DC31BD94E5400A7875D /* TactileButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10259DC41BD94E5400A7875D /* TactileButtonUITests.swift */,
+				10259DC61BD94E5400A7875D /* Info.plist */,
+			);
+			path = TactileButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10259DA01BD94E5300A7875D /* TactileButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10259DC91BD94E5400A7875D /* Build configuration list for PBXNativeTarget "TactileButton" */;
+			buildPhases = (
+				10259D9D1BD94E5300A7875D /* Sources */,
+				10259D9E1BD94E5300A7875D /* Frameworks */,
+				10259D9F1BD94E5300A7875D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TactileButton;
+			productName = TactileButton;
+			productReference = 10259DA11BD94E5300A7875D /* TactileButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10259DB41BD94E5300A7875D /* TactileButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10259DCC1BD94E5400A7875D /* Build configuration list for PBXNativeTarget "TactileButtonTests" */;
+			buildPhases = (
+				10259DB11BD94E5300A7875D /* Sources */,
+				10259DB21BD94E5300A7875D /* Frameworks */,
+				10259DB31BD94E5300A7875D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10259DB71BD94E5300A7875D /* PBXTargetDependency */,
+			);
+			name = TactileButtonTests;
+			productName = TactileButtonTests;
+			productReference = 10259DB51BD94E5300A7875D /* TactileButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10259DBF1BD94E5400A7875D /* TactileButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10259DCF1BD94E5400A7875D /* Build configuration list for PBXNativeTarget "TactileButtonUITests" */;
+			buildPhases = (
+				10259DBC1BD94E5400A7875D /* Sources */,
+				10259DBD1BD94E5400A7875D /* Frameworks */,
+				10259DBE1BD94E5400A7875D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10259DC21BD94E5400A7875D /* PBXTargetDependency */,
+			);
+			name = TactileButtonUITests;
+			productName = TactileButtonUITests;
+			productReference = 10259DC01BD94E5400A7875D /* TactileButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10259D991BD94E5300A7875D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Carma;
+				TargetAttributes = {
+					10259DA01BD94E5300A7875D = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					10259DB41BD94E5300A7875D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 10259DA01BD94E5300A7875D;
+					};
+					10259DBF1BD94E5400A7875D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 10259DA01BD94E5300A7875D;
+					};
+				};
+			};
+			buildConfigurationList = 10259D9C1BD94E5300A7875D /* Build configuration list for PBXProject "TactileButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10259D981BD94E5300A7875D;
+			productRefGroup = 10259DA21BD94E5300A7875D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10259DA01BD94E5300A7875D /* TactileButton */,
+				10259DB41BD94E5300A7875D /* TactileButtonTests */,
+				10259DBF1BD94E5400A7875D /* TactileButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10259D9F1BD94E5300A7875D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10259DAF1BD94E5300A7875D /* LaunchScreen.storyboard in Resources */,
+				10259DAC1BD94E5300A7875D /* Assets.xcassets in Resources */,
+				10259DAA1BD94E5300A7875D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10259DB31BD94E5300A7875D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10259DBE1BD94E5400A7875D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10259D9D1BD94E5300A7875D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10190CDD1D4374EC00F9FB6B /* SecondViewController.swift in Sources */,
+				10259DA71BD94E5300A7875D /* ViewController.swift in Sources */,
+				10259DD51BD94EFB00A7875D /* AnalyticsTracking.swift in Sources */,
+				10259DD31BD94E6900A7875D /* TactileButton.swift in Sources */,
+				10259DD71BD94FF500A7875D /* AnalyticsBasedViewController.swift in Sources */,
+				10259DA51BD94E5300A7875D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10259DB11BD94E5300A7875D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10259DBA1BD94E5400A7875D /* TactileButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10259DBC1BD94E5400A7875D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10259DC51BD94E5400A7875D /* TactileButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10259DB71BD94E5300A7875D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10259DA01BD94E5300A7875D /* TactileButton */;
+			targetProxy = 10259DB61BD94E5300A7875D /* PBXContainerItemProxy */;
+		};
+		10259DC21BD94E5400A7875D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10259DA01BD94E5300A7875D /* TactileButton */;
+			targetProxy = 10259DC11BD94E5400A7875D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10259DA81BD94E5300A7875D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10259DA91BD94E5300A7875D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10259DAD1BD94E5300A7875D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10259DAE1BD94E5300A7875D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10259DC71BD94E5400A7875D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10259DC81BD94E5400A7875D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10259DCA1BD94E5400A7875D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TactileButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ma.car.TactileButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10259DCB1BD94E5400A7875D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TactileButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ma.car.TactileButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		10259DCD1BD94E5400A7875D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TactileButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ma.car.TactileButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TactileButton.app/TactileButton";
+			};
+			name = Debug;
+		};
+		10259DCE1BD94E5400A7875D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TactileButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ma.car.TactileButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TactileButton.app/TactileButton";
+			};
+			name = Release;
+		};
+		10259DD01BD94E5400A7875D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TactileButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ma.car.TactileButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TactileButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		10259DD11BD94E5400A7875D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TactileButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ma.car.TactileButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TactileButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10259D9C1BD94E5300A7875D /* Build configuration list for PBXProject "TactileButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10259DC71BD94E5400A7875D /* Debug */,
+				10259DC81BD94E5400A7875D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10259DC91BD94E5400A7875D /* Build configuration list for PBXNativeTarget "TactileButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10259DCA1BD94E5400A7875D /* Debug */,
+				10259DCB1BD94E5400A7875D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10259DCC1BD94E5400A7875D /* Build configuration list for PBXNativeTarget "TactileButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10259DCD1BD94E5400A7875D /* Debug */,
+				10259DCE1BD94E5400A7875D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10259DCF1BD94E5400A7875D /* Build configuration list for PBXNativeTarget "TactileButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10259DD01BD94E5400A7875D /* Debug */,
+				10259DD11BD94E5400A7875D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10259D991BD94E5300A7875D /* Project object */;
+}
